@@ -1,5 +1,5 @@
 # spotify_api_fetch
-A small php application for fetching search results from the pulic spotify web api
+A small php application for fetching search results from the public Spotify web api.
 
 With this application, you can make simple queries to the Spotify database.
 You can search for artists, albums, tracks or playlists and the results are shown in a simple
