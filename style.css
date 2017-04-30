@@ -1,0 +1,114 @@
+/*
+	CSS test page style file
+*/
+* {
+	padding:0;
+	margin: 0;
+	color: black;
+	background-color: white;
+	font-family: "????","Meiryo",arial,"?????? Pro W3","Hiragino Kaku Gothic Pro",Osaka,"MS P????","MS PGothic",Sans-Serif;
+}
+
+header {
+	text-align: center;
+	background-color: lightgray;
+	padding: 50px 50px 5px;
+}
+
+footer {
+	position: relative;
+	text-align: left;
+	font-size: 8px;
+	background-color: lightgray;
+	padding: 50px;
+}
+#footer-content {
+	position: absolute;
+	background-color: lightgray;
+	bottom: 0;
+}
+
+.search_results {
+	display: flex;
+	align-items: center;
+	border-style: solid;
+	border-width: thin;
+}
+
+table {
+	margin: auto;
+}
+
+th {
+	background-color: lightgray;
+	border-style: solid;
+}
+
+td {
+	border-style: solid;
+	border-width: thin;
+}
+
+#no_border {
+	border-style: none;
+}
+
+.bottom {
+	text-align: center;
+}
+
+.wrapper {
+	display: flex;
+	height: 500px;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	width: 50%;
+}
+
+.left {
+	font-family: "System";	
+}
+
+.right {
+	font-family: "Arial";
+}
+
+button {
+    background-color: darkgray;
+	width: 100px;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	transition-duration: 0.2s;
+}
+
+button:hover:enabled {
+	background-color: white;
+	cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+a {
+	color: blue;
+}
+
+a:visited {
+	color: lightblue;
+}
+
+a:hover {
+	color: red;
+}
